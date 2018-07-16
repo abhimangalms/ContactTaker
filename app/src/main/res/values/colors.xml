@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e1b350</color>
+    <color name="colorPrimaryDark">#deb75e</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="buttoncolour">#e6ce59</color>
+    <color name="backgroundhome">#fcfbf7</color>
+    <color name="black">#000000</color>
+    <color name="bk1">#A1887F</color>
+    <color name="white">#ffffff</color>
+    <color name="bgyellow">#FFE082</color>
+    <color name="violet">#C5CAE9</color>
+    <color name="text_title_color">#3B3B3B</color>
+</resources>

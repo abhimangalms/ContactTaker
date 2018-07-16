@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundhome"
+    android:layout_margin="20dp"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="37dp"
+        android:src="@drawable/bus" />
+
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignStart="@+id/editText2"
+        android:inputType="number"
+        android:maxLength="10"
+        android:ems="8"
+        android:hint="Recipient" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/editText1"
+        android:layout_marginEnd="14dp"
+        android:layout_marginTop="39dp"
+        android:ems="8"
+        android:hint="Contact name + Key"
+        android:inputType="textMultiLine" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/logoutButton"
+        android:layout_marginTop="213dp"
+        android:text="Mobile No:"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText2"
+        android:layout_alignStart="@+id/textView1"
+        android:text="Message:"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:background="@color/buttoncolour"
+        android:textAllCaps="false"
+        android:text="Send" />
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="-6dp"
+        android:layout_toStartOf="@+id/imageView"
+        android:background="@color/buttoncolour"
+        android:textAllCaps="false"
+        android:text="Logout" />
+
+    <TextView
+        android:id="@+id/contactView"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/requestedContact"
+        android:layout_alignBottom="@+id/requestedContact"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:hint="   Requested contact shows here" />
+
+    <TextView
+        android:id="@+id/requestedContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginBottom="25dp"
+        android:hint="Contact : " />
+
+
+
+</RelativeLayout>

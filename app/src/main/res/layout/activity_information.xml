@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InformationActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+
+        android:layout_marginTop="19dp"
+        android:text="
+      This applicatin is used for getting a mobile number of a person by just specifying the name.\n
+
+This is a useful application when we forget our mobile and are desperately in need of a contact.\n
+.
+In this case, we can just send a name as a message from any mobile to our mobile where this application has been installed, here a key is specified for security.\n
+
+After receiving this name the mobile to which the message has been sent checks the contact list of the mobile and if that name is found. it sends the number to the mobile from where the request has been got."
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="150dp"
+        android:layout_marginStart="26dp"
+        android:text="Steps"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="41dp"
+        android:text="1. Register your account with a security key.\n
+2. Login to your account inside app.\n
+3. Type the contact saved mobile number in Recipient.\n
+4. Type contact name (with 4 digit security key) you want from it in Message box.\n
+5. Tap Send button to get the requested contact.\n
+6. The contact will be shown in the Contact box." />
+
+</RelativeLayout>
+</ScrollView>
